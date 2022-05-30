@@ -2,7 +2,7 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: 'Poppins', arial;
+  font-family: 'Poppins';
 }
 
 ul {
@@ -47,7 +47,7 @@ header .logo {
 }
 
 header .logo:hover {
-  color: #fff;
+  color: white;
   font-weight: bold;
 }
 
@@ -63,7 +63,9 @@ header ul a {
 }
 
 .social-header, .hero-design {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .hero {
@@ -85,13 +87,13 @@ header ul a {
   color: #FF64CB;
 }
 
-.meet span {
-  margin-top: 1em;
-  margin-right: .5em;
+.meet:hover {
+  color: white;
 }
 
-.meet:hover {
-  color: #fff;
+span {
+  margin-top: 1em;
+  margin-right: .5em;
 }
 
 .scroll {
@@ -164,11 +166,12 @@ section {
 }
 
 .skills-container ul li .icon-container.one {
-  width: 50px;
+  width: 100px;
 }
 
 .skills-container ul li .icon-container.two {
-  width: 100px;
+  height: 200px;
+  width: 350px;
 }
 
 .skills-container ul li .icon-container.three {
@@ -193,6 +196,9 @@ section {
 }
 
 @media only screen and (min-width: 800px) {
+  .logo:hover {
+    color: white;
+  }
   .featured, .portfolio {
     text-align: left;
   }
@@ -229,9 +235,15 @@ section {
   .portfolio-container img {
     margin-left: 2em;
   }
+  a:hover {
+    color: white;
+  }
 }
 
 @media only screen and (min-width: 1050px) {
+  .logo:hover {
+    color: white;
+  }
   .hero {
     height: 90vh;
   }
@@ -253,6 +265,9 @@ section {
   }
   section {
     padding: 4em;
+  }
+  a:hover {
+    color: #00F7FF;
   }
   .social-header {
     display: block;
@@ -303,6 +318,9 @@ section {
 }
 
 @media only screen and (min-width: 1250px) {
+  .logo:hover {
+    color: white;
+  }
   header {
     padding: 2em 2em 2em 10em;
   }
@@ -315,9 +333,15 @@ section {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
+  a:hover {
+    color: #00F7FF;
+  }
 }
 
 @media only screen and (min-width: 1550px) {
+  .logo:hover {
+    color: white;
+  }
   header {
     padding: 2em 2em 2em 20em;
   }
@@ -329,6 +353,9 @@ section {
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
+  }
+  a:hover {
+    color: #00F7FF;
   }
 }
 
