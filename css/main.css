@@ -63,9 +63,7 @@ header ul a {
 }
 
 .social-header, .hero-design {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .hero {
@@ -87,13 +85,13 @@ header ul a {
   color: #FF64CB;
 }
 
-.meet:hover {
-  color: white;
-}
-
-span {
+.meet span {
   margin-top: 1em;
   margin-right: .5em;
+}
+
+.meet:hover {
+  color: white;
 }
 
 .scroll {
@@ -110,7 +108,7 @@ section {
   position: relative;
 }
 
-.featured:before {
+.featured::before {
   content: "";
   position: absolute;
   width: 200px;
@@ -136,6 +134,10 @@ section {
   font-size: 1.3em;
   margin-top: -.4em;
   display: block;
+}
+
+.featured-title:hover {
+  color: #FF64CB;
 }
 
 .featured-desc {
@@ -166,17 +168,15 @@ section {
 }
 
 .skills-container ul li .icon-container.one {
-  width: 100px;
+  width: 50px;
 }
 
 .skills-container ul li .icon-container.two {
-  height: 200px;
-  width: 350px;
+  width: 100px;
 }
 
 .skills-container ul li .icon-container.three {
-  height: 200px;
-  width: 200px;
+  width: 60px;
 }
 
 .skills-container ul li .skill-title {
@@ -197,9 +197,6 @@ section {
 }
 
 @media only screen and (min-width: 800px) {
-  .logo:hover {
-    color: white;
-  }
   .featured, .portfolio {
     text-align: left;
   }
@@ -236,15 +233,9 @@ section {
   .portfolio-container img {
     margin-left: 2em;
   }
-  a:hover {
-    color: white;
-  }
 }
 
 @media only screen and (min-width: 1050px) {
-  .logo:hover {
-    color: white;
-  }
   .hero {
     height: 90vh;
   }
@@ -266,9 +257,6 @@ section {
   }
   section {
     padding: 4em;
-  }
-  a:hover {
-    color: #00F7FF;
   }
   .social-header {
     display: block;
@@ -319,9 +307,6 @@ section {
 }
 
 @media only screen and (min-width: 1250px) {
-  .logo:hover {
-    color: white;
-  }
   header {
     padding: 2em 2em 2em 10em;
   }
@@ -334,15 +319,9 @@ section {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
-  a:hover {
-    color: #00F7FF;
-  }
 }
 
 @media only screen and (min-width: 1550px) {
-  .logo:hover {
-    color: white;
-  }
   header {
     padding: 2em 2em 2em 20em;
   }
@@ -354,9 +333,6 @@ section {
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
-  }
-  a:hover {
-    color: #00F7FF;
   }
 }
 
