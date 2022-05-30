@@ -175,7 +175,8 @@ section {
 }
 
 .skills-container ul li .icon-container.three {
-  width: 60px;
+  height: 200px;
+  width: 200px;
 }
 
 .skills-container ul li .skill-title {
