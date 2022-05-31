@@ -100,15 +100,14 @@ header ul a {
 }
 
 .cv_btn {
-  font-size: 1.7rem;
+  font-size: 1rem;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#FF64CB), to(#fe5196));
   background-image: linear-gradient(to top, #FF64CB 0%, #fe5196 100%);
   padding: 14px 32px;
   border: none;
-  border-radius: 6px;
+  border-radius: 4px;
   color: #fff;
-  margin-top: 28rem;
-  margin-left: 55rem;
+  margin-top: 2rem;
   cursor: pointer;
   position: relative;
   -webkit-transition: all 0.35s;
@@ -133,7 +132,7 @@ header ul a {
   background: #00F7FF;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 .cv_btn:hover {
@@ -148,11 +147,10 @@ header ul a {
   font-size: 1.0rem;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#FF64CB), to(#fe5196));
   background-image: linear-gradient(to top, #FF64CB 0%, #fe5196 100%);
-  padding: 14px 32px;
+  padding: 10px 24px;
   border: none;
   border-radius: 4px;
   color: #fff;
-  margin-top: 2rem;
   cursor: pointer;
   position: relative;
   -webkit-transition: all 0.35s;
@@ -322,11 +320,78 @@ section {
   .portfolio-container img {
     margin-left: 2em;
   }
+  .cv_btn {
+    font-size: 2rem;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#FF64CB), to(#fe5196));
+    background-image: linear-gradient(to top, #FF64CB 0%, #fe5196 100%);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    outline: none;
+  }
+  .cv_btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+  }
+  .cv_btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00F7FF;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    border-radius: 4px;
+  }
 }
 
 @media only screen and (min-width: 1050px) {
   .hero {
     height: 90vh;
+  }
+  .cv_btn {
+    font-size: 2rem;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#FF64CB), to(#fe5196));
+    background-image: linear-gradient(to top, #FF64CB 0%, #fe5196 100%);
+    padding: 14px 100px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 20rem;
+    margin-right: 50rem;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    outline: none;
+  }
+  .cv_btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+  }
+  .cv_btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00F7FF;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    border-radius: 20px;
   }
   .nav-container {
     display: -ms-grid;
@@ -408,6 +473,40 @@ section {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
+  .cv_btn {
+    font-size: 2rem;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#FF64CB), to(#fe5196));
+    background-image: linear-gradient(to top, #FF64CB 0%, #fe5196 100%);
+    padding: 14px 100px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 20rem;
+    margin-right: 50rem;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    outline: none;
+  }
+  .cv_btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+  }
+  .cv_btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00F7FF;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    border-radius: 20px;
+  }
 }
 
 @media only screen and (min-width: 1550px) {
@@ -422,6 +521,40 @@ section {
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
+  }
+  .cv_btn {
+    font-size: 2rem;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#FF64CB), to(#fe5196));
+    background-image: linear-gradient(to top, #FF64CB 0%, #fe5196 100%);
+    padding: 14px 100px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 20rem;
+    margin-right: 50rem;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    outline: none;
+  }
+  .cv_btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+  }
+  .cv_btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00F7FF;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    border-radius: 20px;
   }
 }
 
