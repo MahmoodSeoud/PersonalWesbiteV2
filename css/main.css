@@ -100,14 +100,15 @@ header ul a {
 }
 
 .cv_btn {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#FF64CB), to(#fe5196));
   background-image: linear-gradient(to top, #FF64CB 0%, #fe5196 100%);
   padding: 14px 32px;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   color: #fff;
-  margin-top: 2rem;
+  margin-top: 28rem;
+  margin-left: 55rem;
   cursor: pointer;
   position: relative;
   -webkit-transition: all 0.35s;
@@ -132,7 +133,7 @@ header ul a {
   background: #00F7FF;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 .cv_btn:hover {
