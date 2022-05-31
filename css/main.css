@@ -28,7 +28,7 @@ img {
 }
 
 .nav-container a:hover {
-  color: #00F7FF;
+  color: #FF64CB;
 }
 
 header {
@@ -99,6 +99,94 @@ header ul a {
   margin-top: 2em;
 }
 
+.cv_btn {
+  font-size: 1.5rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#FF64CB), to(#fe5196));
+  background-image: linear-gradient(to top, #FF64CB 0%, #fe5196 100%);
+  padding: 14px 32px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.cv_btn a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cv_btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00F7FF;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.cv_btn:hover {
+  color: #fff;
+}
+
+.cv_btn:hover:after {
+  width: 100%;
+}
+
+.cv2_btn {
+  font-size: 1.0rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#FF64CB), to(#fe5196));
+  background-image: linear-gradient(to top, #FF64CB 0%, #fe5196 100%);
+  padding: 14px 32px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.cv2_btn a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cv2_btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #6E00FF;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.cv2_btn:hover {
+  color: #fff;
+}
+
+.cv2_btn:hover:after {
+  width: 100%;
+}
+
 section {
   padding: 4em 2em;
   text-align: center;
@@ -108,7 +196,7 @@ section {
   position: relative;
 }
 
-.featured::before {
+.featured:before {
   content: "";
   position: absolute;
   width: 200px;
